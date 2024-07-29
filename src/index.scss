@@ -1,0 +1,469 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Panchang Variable';
+  transition: 2s;
+
+}
+
+body{
+ background-color: #000;
+ overflow-x: hidden;
+
+}
+
+/* Navbar Section */
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+
+
+  .nav-logo{
+     padding: 15px;
+  }
+  .text-log{
+    padding: 30px;
+    padding-left: 20px;
+    left: 100px;
+    color: #fff;
+
+    img{
+      width: 55%;
+      padding-left: 20px;
+    }
+  }
+  .text-area{
+   position: relative;
+   top: 55px;
+   left: 30px;
+  
+  }
+  .text-log h2{
+    position: relative;
+  
+
+  }
+  .text-log h3{
+    color: #fff;
+    position: relative;
+    bottom: 125px;
+    right: 150px;
+    font-size: 1.6rem;
+  }
+  .text-log{
+     margin-left: 100px;
+  }
+}
+
+/* Banner Section */
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px;
+    gap: 50px;
+    color: #fff;
+    font-size: 3rem;
+
+  .banner-text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 80px;
+      gap: 30px;
+  
+  }
+  .banner-area{
+     width: 60%;
+  
+  }
+    .banner0{
+      width: 50%;
+      font-size: 56rem;
+      position: relative;
+   }
+   .banner-area h2{
+      font-size: 5rem;
+      display: flex;
+      justify-content: center;
+   }
+   .banner-area h2 b{
+       position: relative;
+       right: 50px;
+   }
+   .banner-area h2 span{
+      position: relative;
+      left: 30px;
+  }
+   .text0{
+      font-size: 1rem;
+      font-weight: bold;
+   }
+   .line-container{
+       background-color: #fff;
+       width: 2%;
+       height: 70px;
+       margin-left: 50px;
+       background: linear-gradient(230deg, #fff 20%, transparent);
+       margin-top: 18px;
+   }
+   .text3{
+      padding-right: 130px;
+      font-weight:bold ;
+   }
+   .text4{
+      font-size: 1.8rem;
+      position: relative;
+      bottom: 25px;
+   }
+
+   .banner1{
+     width: 20%;
+   }
+   .banner-text h2{
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+   }
+   .text3{
+      font-size: 1.3rem;
+      margin-left: 130px;
+   }
+   .banner3{
+     font-size: 1rem;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+
+   }
+   .banner4{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     font-size: 1rem;
+   }
+}
+
+/* View Section */
+
+.view-container{
+   background-color: #8E2112;
+   height: 50vh;
+   margin-top: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+  .view-image{
+    width: 2%;
+  }
+}
+
+/* Hero Section */
+
+.hero-container{
+   background-color: #fff;
+   height: 100vh;
+
+   .hero-text{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 30px;
+      padding: 100px;
+      font-size: 1rem;
+   }
+   .hero-image{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .flock-image{
+     width: 100px;
+     position: relative;
+     left: 150px;
+   }
+   .flock-text{
+      position: relative;
+      right: 100px;
+      font-size: 2rem;
+   }
+  }
+
+/* Blog Section */
+
+#blogs{
+  background-color: #000;
+  height: 100vh;
+}
+.blog-container{
+   margin-top: 200px;
+   background-image: url('./assets/images/Peacock.png');
+   height: 50vh;
+}
+
+/* Service Section */
+#services{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   bottom: 250px;
+   gap: 50px;
+   height: 100vh;
+   
+
+
+   .service-container{
+     display: flex;
+     line-height: 23px;
+     padding: 40px;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     
+  
+    .textbox{
+       color: #fff;
+       display: flex;
+       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      gap: 15px;    
+    }
+  
+   .textbox h2{
+      font-size: 1.7rem;
+   }
+   .textbox p{
+      font-size: 15px;
+      width: 76%;
+    
+
+   }
+   
+   
+   }
+   .text-images{
+      position: relative;
+      bottom: 20px;
+      
+      
+      .text-pic{
+        position: relative;
+        bottom: 100px;
+      }
+   }
+   .servicecards{
+       display: flex;
+       flex-direction: column;
+       
+   }
+ 
+  }
+
+  /* More Section */
+
+  .more-container{
+     background-image: url('../src/assets/images/Peacock.png');
+     height: 50vh;
+     position: relative;
+     bottom: 170px;
+  }
+
+
+/* Contact Section */
+
+#contact{
+   background-color: #fff;
+   height: 80vh;
+
+ 
+   .contact-container{
+     display: flex;
+     padding: 30px;
+     flex-direction: column;
+     gap: 20px;
+     justify-content: center;
+     align-items: center;
+   }
+   img{
+     width: 40%;
+   }
+   .contact-image{
+      display: flex;
+      justify-content: center;
+   }
+   .contact-text{
+     font-size: 1.4rem;
+     color: #FF7567;
+   }
+   textarea{
+      padding: 12px;
+      background-color: #D0CCC7;
+      border: none;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      font-size: 1rem;
+   }
+ .btn{
+    padding: 12px 15px;
+    background-color: #fff;
+    border: none;
+    position: relative;
+    left: 560px;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: bold;
+   }
+ 
+
+}
+
+/* Footer section */
+#footer{
+   margin-top: 50px;
+
+.footer-container{
+   padding: 50px;
+   
+}
+.footer-pic{
+   display: flex;
+   justify-content: center;
+
+   img{
+    width: 30%;
+    padding: 30px;
+   }
+}
+
+.footer-image{
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+  
+   img{
+     width: 25%;
+   }
+   .footer-text1{
+     color: #fff;
+     
+   }
+   .footer-text1 h4{
+    font-size: 1.6rem;
+ }
+ .footer-text1 p{
+    font-size: 1rem;
+    color:#A72316;
+ }
+   .footer-text2{
+    color: #fff;
+  }
+  .footer-text2 h4{
+    font-size: 1.6rem;
+ }
+ .footer-text2 p{
+    font-size: 1rem;
+    color:#A72316;
+ }
+  .footer-text3{
+    color: #fff;
+  }
+  .footer-text3 h4{
+    font-size: 1.6rem;
+ }
+ .footer-text3 p{
+    font-size: 1rem;
+    color: #A72316;
+ }
+  .footer-text4{
+    color: #fff;
+  }
+  .footer-text4 h4{
+    font-size: 1.6rem;
+ }
+ .footer-text4 p{
+    font-size: 1rem;
+    color: #A72316;
+ }
+  .footer-text5{
+    color: #fff;
+  }
+  .footer-text5 h4{
+    font-size: 1.6rem;
+ }
+ .footer-text5 p{
+    font-size: 1rem;
+    color: #A72316;
+ }
+}
+
+}
+
+/* Last Section */
+
+.last-container{
+   background-image: url('../src/assets/images/Group\ 10.png');
+   height: 30vh;
+   margin-top: 50px;
+
+ .last-icons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    gap: 12px;
+    margin: 30px;
+ }
+ .last-image{
+    position: relative;
+    top: 40px;
+    margin-left: 100px;
+ }
+ .last-icons h4{
+   font-size: 1.4rem;
+   font-weight: bold;
+ }
+}
+
+
+@media(max-width:1180px) {
+
+     .banner-area h2 b{
+        font-size: 2rem;
+        margin-left: 20px;
+     }
+     
+     .banner-area h2 span{
+      font-size: 2rem;
+      margin-right: 20px;
+   }
+
+   .hero-container{
+       height: 60vh;
+   }
+   #services{
+      height: 50vh;
+      display: flex;
+   }
+      #contact{
+          height: 50vh;
+      }
+   }  
+
+@media(max-width:1024){
+
+   body{
+      overflow: hidden;
+   }
+}
