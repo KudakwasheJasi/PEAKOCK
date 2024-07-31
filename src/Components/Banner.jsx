@@ -18,7 +18,7 @@ const Banner = () => {
             <div className="line-container"></div>
         </div>
          <div className="banner-text">
-            <h2>The <img src={group4} className='banner1' alt="" />Collective</h2>
+            <h3>The <img src={group4} className='banner1' alt="" />Collective</h3>
                <div className="text4">
             <p>is just that - a collective.</p>
             </div>

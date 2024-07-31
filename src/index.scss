@@ -83,7 +83,7 @@ body{
   }
     .banner0{
       width: 50%;
-      font-size: 56rem;
+   
       position: relative;
    }
    .banner-area h2{
@@ -124,7 +124,7 @@ body{
    .banner1{
      width: 20%;
    }
-   .banner-text h2{
+   .banner-text h3{
     font-size: 2.3rem;
     display: flex;
     justify-content: center;
@@ -194,6 +194,9 @@ body{
       position: relative;
       right: 100px;
       font-size: 2rem;
+   }
+   .hero-text{
+      position: relative;
    }
   }
 
@@ -466,4 +469,142 @@ body{
    body{
       overflow: hidden;
    }
+}
+
+
+@media(max-width:896px){
+
+  
+   .nav-logo{
+      padding: 70px;
+ 
+   }
+   .nav-logo{
+      width: 10px;
+   }
+   .text-log{
+      position: relative;
+      left: 50px;
+   }
+   .text-log h3{
+      padding-left: 30px;
+      width: 280px;
+    }
+  
+    .banner-area h2 b{
+      padding-left: 10px;
+      font-size: 1.5rem;
+     
+  }
+  .banner-area h2 span{
+     padding-right: 18px;
+     font-size: 1.5rem;
+ }
+  .text3 p{
+    font-size: 3vw;
+  }
+ 
+  .banner-area{
+  display: flex;
+  margin-right: 40px;
+}
+.banner-text h2{
+   font-size: 1rem;
+   display: flex;
+   justify-content: center;
+  }
+  .banner-text h3{
+   font-size: 1.2rem;
+   display: flex;
+   margin-left: 30px;
+   width: 100%;
+ 
+  }
+  .banner1{
+   display: none;
+  }
+  .text4 p{
+     font-size: 5vw;
+  }
+  .banner3 p{
+     font-size: 3.3vw;
+  }
+  .banner4 p{
+    font-size: 3.5vw;
+    width: 70%;
+  }
+  .hero-container{
+      height: 90vh;
+  }
+  .hero-text p{
+      line-height: 18px;
+      font-size: 2.6vw;
+  }
+  .flock-text h6{
+   font-size: 4vw;
+  }
+  .flock-image{
+   margin-right: 60px;
+  }
+  .hero-image{
+     position: relative;
+     bottom: 80px;
+  }
+  .blog-container{
+   margin-top: 200px;
+   height: 40vh;
+}
+#services{
+    height: 150vh;
+}
+  .service-container{
+     flex-direction: column;
+  
+  }
+    .more-container{
+    height: 40vh;
+    position: relative;
+    bottom: 120px;
+}
+textarea{
+   padding: 12px;
+   font-size: 1rem;
+   width: 100%;
+}
+#contact{
+   background-color: #fff;
+   height: 50vh;
+}
+.btn{
+ display: flex;
+ justify-content: center;
+}
+
+#footer{
+   margin-top: 50px;
+   height: 100vh;
+   display: flex;
+ 
+   .footer-image{
+      display: flex;
+      flex-direction: column;
+   
+   }
+.footer-container{
+   padding: 50px;
+   
+}
+.footer-pic{
+   display: flex;
+   justify-content: center;
+
+   img{
+    width: 60%;
+    padding: 30px;
+   }
+}
+}
+html{
+   overflow-x: hidden;
+}
 }
